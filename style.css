@@ -649,15 +649,17 @@ footer {
 
     /* testimonial section */  
     .testimonial-text {
-        display: grid;
-        grid-template-columns: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 20px;
     }
     
     .grid-item {
         padding: 20px;
         font-size: 20px;
-        text-align: center;
+        /* border: 1px solid red; */
     }
     
     .grid-item img {
